@@ -30,7 +30,8 @@ export default buildConfig({
   },
   csrf: [
     'http://localhost:3000',
-    'https://matchy-payload-dev.payloadcms.app'
+    'https://matchy-payload-dev.payloadcms.app',
+    'http://90.156.217.248:3000'
   ],
   graphQL: {
     schemaOutputFile: path.resolve(__dirname, 'generated-schema.graphql'),
